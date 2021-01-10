@@ -43,7 +43,7 @@
                                 {{ $libro->id }}
                                 </th>
                                 <td>{{ $libro->isbn }}</td>
-                                <td>{{ $libro->editoriales_id }}</td>
+                                <td>{{ $libro->editoriales->nombre }}</td>
                                 <td>{{ $libro->titulo }}</td>
                                 <td><img src="/fotos/portadasLibros/{{ $libro->portada }}" alt="portada" class="imgs"></td>
                             </tr>
